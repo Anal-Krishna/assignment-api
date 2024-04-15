@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+</head>
+<body>
+    <h1>Weather App</h1>
+    <form onsubmit="event.preventDefault(); getWeather();">
+        <label for="city">Enter city name:</label>
+        <input type="text" id="city" required>
+        <button type="submit">Get Weather</button>
+    </form>
+    <div id="weather"></div>
+    <a href="https://openweathermap.org" target="_blank">OpenWeatherMap</a>
+    <script src="JS/scripts.js"></script>
+</body>
+</html>
